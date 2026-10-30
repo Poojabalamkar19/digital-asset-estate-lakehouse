@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databricks authentication
+.databrickscfg
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# Data files
+data/raw/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
